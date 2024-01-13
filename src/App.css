@@ -1,0 +1,15 @@
+.text {
+    /* max-width: 150px; */
+    min-height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    overflow-y: visible;
+}
+.description{
+    /* max-width:;   */
+    /* background-color: aquamarine; */
+    /* overflow-x: scroll; */
+    min-height:100px ;
+
+}
