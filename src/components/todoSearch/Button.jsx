@@ -3,10 +3,13 @@ import React from 'react'
 export const Button = (props) => {
   const{Title,Description} = props.userData
   const Submitform = () => {
+
      props.setUser([
       ...props.user,
       {Title,Description}
      ])
+
+
    
   }
      console.log(props.userData);

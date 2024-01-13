@@ -1,15 +1,29 @@
 .text {
-    /* max-width: 150px; */
     min-height: 20px;
     display: flex;
     flex-wrap: wrap;
-    /* background-color: aqua; */
     overflow-y: visible;
 }
 .description{
-    /* max-width:;   */
-    /* background-color: aquamarine; */
-    /* overflow-x: scroll; */
-    min-height:100px ;
+    min-height:30px ;
 
+}
+@media screen and (max-width:420px) {
+    .text{
+        max-width: max-content;
+    }
+    .divDesc{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .description{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 300px;
+        min-height: 10px;
+        padding: 10px;
+        background-color: aquamarine;
+        /* overflow: hidden; */
+        margin-top: 20px;
+    }
 }

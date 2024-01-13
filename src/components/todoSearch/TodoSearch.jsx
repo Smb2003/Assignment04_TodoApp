@@ -20,7 +20,7 @@ export const TodoSearch = (props) => {
         setUserData={props.setUserData}
         user={props.user}
         />
-        <Button userData={props.userData} 
+        <Button userData={props.userData}  
         setUserData={props.setUserData} user={props.user} setUser={props.setUser}/> 
     </div>
   )
